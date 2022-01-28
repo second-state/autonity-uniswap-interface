@@ -1,28 +1,29 @@
 .Title {
-  background: #f4f4f4;
+  background: #FFFFFF;
   height: 50px;
   text-align: left;
-  margin-left: 25%;
+  margin: auto;
   font-size: 1rem;
 }
 
 .NavbarItems {
-  background: #f4f4f4;
+  background: #FFFFFF;
   height: 80px;
-  display: flex;
+  display: table;
+  margin: 0 auto;
   justify-content: left;
   align-items: left;
   font-size: 1.2rem;
   width: 75%;
   text-align: left;
-  margin-left: 25%;
+
 }
 
 .navbar-logo {
-  color: rgb(226, 23, 23);
   justify-self: start;
-  margin-left: 0px;
   cursor: pointer;
+  display: table;
+  margin: 0 auto;
 }
 
 .logo {
@@ -30,20 +31,27 @@
 }
 
 .nav-menu {
-  display: grid;
-  grid-template-columns: repeat(5, auto);
   grid-gap: 50px;
   list-style: none;
-  text-align: left;
+  text-align: center;
   justify-content: end;
-  padding-top: 1rem;
-  padding-left: 0rem;
   font-size: 25px;
+  margin: auto;
+  width: 100%;
+  padding:1%;
+  border-top: 1px solid #63a8e9;
+  border-bottom: 1px solid #63a8e9;
+  border-top-width: medium;
+  border-bottom-width: medium;
+
 }
 
 .nav-links {
   color: rgb(73, 73, 73);
   text-decoration: none;
+  display: table;
+  margin: 0 auto;
+  padding:2%;
 }
 
 .nav-links-clicked {
@@ -60,3 +68,4 @@
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
+

@@ -60,12 +60,10 @@ function Liquidity() {
         className={classes.footer}
         direction="row"
         justifyContent="center"
-        alignItems="flex-end"
-      >
-        <p>
-          Clearmatics Autonity Uniswap | Get AUT for use in the bakerloo testnet{" "}
-          <a href="https://faucet.bakerloo.autonity.network/">here</a>
-        </p>
+        alignItems="flex-end">
+        <p>This user interface was originally created by <a href="https://www.clearmatics.com/">Clearmatics.</a></p>
+        <br />
+        <p> Source: <a href="https://github.com/clearmatics/autonity-uniswap-interface">Autonity Uniswap Iinterface</a></p>
       </Grid>
     </div>
   );

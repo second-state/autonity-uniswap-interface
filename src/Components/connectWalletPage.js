@@ -6,7 +6,7 @@ import {
   Paper,
   Typography,
 } from "@material-ui/core";
-import logo from "../assets/img/logo.svg";
+import logo from "../assets/img/logo.jpg";
 
 const styles = (theme) => ({
   paperContainer: {
@@ -50,7 +50,7 @@ function ConnectWalletPage() {
     <div>
       <div className="Title">
         <h1 className="navbar-logo">
-          <img src={logo} className="logo"></img> Autonity Uniswap
+          <img src={logo} className="logo"></img> ParaState Uniswap
         </h1>
       </div>
 
@@ -72,12 +72,10 @@ function ConnectWalletPage() {
         className={classes.footer}
         direction="row"
         justifyContent="center"
-        alignItems="flex-end"
-      >
-        <p>
-          Clearmatics Autonity Uniswap | Get AUT for use in the bakerloo testnet{" "}
-          <a href="https://faucet.bakerloo.autonity.network/">here</a>
-        </p>
+        alignItems="flex-end">
+        <p>This user interface was originally created by <a href="https://www.clearmatics.com/">Clearmatics.</a></p>
+        <br />
+        <p> Source: <a href="https://github.com/clearmatics/autonity-uniswap-interface">Autonity Uniswap Iinterface</a></p>
       </Grid>
     </div>
   );

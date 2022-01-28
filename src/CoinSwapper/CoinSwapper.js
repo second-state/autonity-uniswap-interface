@@ -373,6 +373,7 @@ function CoinSwapper(props) {
       <Container maxWidth="xs">
         <Paper className={classes.paperContainer}>
           <Typography variant="h5" className={classes.title}>
+          <hr />
             Swap Coins
           </Typography>
 
@@ -449,18 +450,15 @@ function CoinSwapper(props) {
           </Grid>
         </Paper>
       </Container>
-
       <Grid
         container
         className={classes.footer}
         direction="row"
         justifyContent="center"
-        alignItems="flex-end"
-      >
-        <p>
-          Clearmatics Autonity Uniswap | Get AUT for use in the bakerloo testnet{" "}
-          <a href="https://faucet.bakerloo.autonity.network/">here</a>
-        </p>
+        alignItems="flex-end">
+        <p>This user interface was originally created by <a href="https://www.clearmatics.com/">Clearmatics.</a></p>
+        <br />
+        <p> Source: <a href="https://github.com/clearmatics/autonity-uniswap-interface">Autonity Uniswap Iinterface</a></p>
       </Grid>
     </div>
   );
